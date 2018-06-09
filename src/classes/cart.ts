@@ -21,7 +21,7 @@ export class Cart {
 
     getCartItems() {
         const selectedProductContainer: HTMLDivElement = document.
-            querySelector('.selected-product-item') as HTMLDivElement;
+            querySelector('#selectedProductContr') as HTMLDivElement;
 
         selectedProductContainer.innerHTML = "";
 
@@ -30,6 +30,7 @@ export class Cart {
             const selectedProduct = this.products.find(product => product.id == item.productId);
 
             const div1: HTMLDivElement = document.createElement('div');
+            div1.className='selected-product-item';
 
             const span1: HTMLSpanElement = document.createElement('span');
             span1.textContent = selectedProduct.title;
