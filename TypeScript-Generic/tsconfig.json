@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "experimentalDecorators":true,
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016"
+        ],
+        "target": "es2015"
+    },
+    "files": [
+        "app.ts",
+        "app1.ts",
+        "app2.ts"
+    ],
+    "compileOnSave": true
+}
