@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: aqua;
+    border-bottom: 2px solid gray;
+    padding: 25px;
+}
+.product-item{
+    display: inline-block;
+    width: 45%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+.food-image{
+    width:200px;
+    height:200px;
+}
+
+.mini-cart{
+    float: right;
+}
+
+.logo{
+    text-align: center;
+}
+
+.selected-product-item{
+    display: inline-block;    
+    border: 5px solid #000;    
+}
